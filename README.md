@@ -42,7 +42,7 @@ Analisis kapasitas dukung vertikal pondasi tiang (bor dan pancang)
 
 **Service limit state:** using normalized load-deformation curves $(t-z)$, Chen and Kulhawy (2002)
 
-## Metode: Pondasi Tiang Panjang (*Driven Pile*)
+## Metode: Pondasi Tiang Pancang (*Driven Pile*)
 
 ### Pasir (Cohesionless soil)
 
@@ -62,8 +62,7 @@ Input data yang diperlukan, berupa format excel. Dapat dilihat pada file studi_k
 ## IDE/Text Editor
 Untuk menggunakan module ini direkomendasikan menggunakan Jupyter Notebook/ Jupyter Lab.
 
-# Contoh:
-Analisis pondasi tiang bor:
+# Pondasi tiang bor (Drilled Pile)
 
 ## Single method
 
@@ -129,7 +128,7 @@ Hasil:
 
 ![Result](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz6rMQWsDITYE7UTpjb_fRuHIL4TjcWRazWuzg0bKcWviGClqFktU_VtTAKqbhbKXLY6D5PqypuTM6sTiqIOxqye_LWEceq6_spK3ySb8MrA1UfOSb_FT1wMNvok7hdr7SZJp8386B6AM66-4SzZv5BMjpQFGgf5OT2_xXU5gaF28UrEbWd9eTDxQKPA/w640-h534/multi_method_drilled.png)
 
-## Pondasi tiang pancang (Driven Pile)
+# Pondasi tiang pancang (Driven Pile)
 Contoh:
 ```
 from Palu import Driven
